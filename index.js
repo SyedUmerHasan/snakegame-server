@@ -1,4 +1,4 @@
-var io = require('socket.io')(4001);
+var io = require('socket.io')(process.env.PORT);
 var path = require('path');
 const fs = require('fs');
 const os = require('os');
