@@ -1,16 +1,13 @@
-
-var express = require('express');
-var path = require('path');
-var bodyParser = require('body-parser');
-var http = require('http');
-var app = express();
-
-let server = app.listen(3000)
-var io = require('socket.io')(server);
 var path = require('path');
 const fs = require('fs');
 const os = require('os');
 const http = require('http');
+
+var express = require('express');
+var app = express();
+
+let server = app.listen(3000)
+var io = require('socket.io')(server);
 
 var users = [];
 
