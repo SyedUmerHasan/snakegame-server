@@ -1,3 +1,5 @@
+
+var app = express();
 let server = app.listen(3000)
 var io = require('socket.io')(server);
 var path = require('path');
