@@ -1,4 +1,4 @@
-let server = app.listen(process.env.PORT)
+let server = app.listen(3000)
 var io = require('socket.io')(server);
 var path = require('path');
 const fs = require('fs');
